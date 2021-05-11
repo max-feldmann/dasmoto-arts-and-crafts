@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+head {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.align-center {
+    text-align: center;
+}
+
+#hero-section{
+    color: khaki;
+    height: 100%;
+    background-image: url("../assets/images/pattern.webp"), linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.75));
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+.hero-wrapper {
+    padding: 20px;
+}
+
+.push-right {
+    margin-left: 100px;
+}
+
+.section-heading {
+    color: white;
+    font-size: 32;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.section-heading-wrapper-brushes {
+    background-color: mediumspringgreen;
+}
+
+.section-heading-wrapper-frames {
+    background-color: lightcoral;
+}
+
+.section-heading-wrapper-paint {
+    background-color:skyblue;
+}
+
+.section-visual {
+    border-radius: 10px;
+}
+
+.section-content-wrapper {
+    margin: 25px;
+    height: 300px;
+}
+
+.product-description {
+    margin-left: 20px;
+}
+
+.product-price {
+    margin-left: 20px;
+    font-weight: bold;
+    color: midnightblue;
+    font-size: 18px;
+}
+
+.spacer-25 {
+    height: 25px;
+}
+
+.box-shadow {
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+.left {
+    width: 30%;
+    float: left;
+}
+
+.right {
+    margin-left: 30%;
+}
